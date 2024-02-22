@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Young Serif", serif;
+}
+body{
+    background-color: bisque;
+}
+
+.mainDiv {
+    padding: 25%;  /* içerik büyüdükçe sayfanın oranını hizalıyor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 5rem;
+  
+}
+
+.content {
+
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    gap: 20px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.card-body-text{
+    font-size: 16px;
+    font-weight: 400px;
+    color: gray;
+}
+.content img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.cook {
+    background-color: pink;
+    border-radius: 10px;
+}
+.baslik1{
+    font-weight: bold;
+}
+.baslik_{
+    color: indigo;
+     font-size: 15px;
+      font-weight: bold;
+      text-align: left;
+}
+#Instructions{
+    list-style:decimal;
+}
+#Instructions li::marker{
+    color: peru;
+}
+.items{
+    font-weight: bold;
+    padding-left:30px;
+}
+td{
+    padding: 20px;
+}
+table{
+    width: 100%;
+}
+span{
+    font-weight: bold;
+}
+h2{
+    color: peru;
+}
+.cal{
+    font-weight: bold;
+    color: peru;
+}
+
+ 
